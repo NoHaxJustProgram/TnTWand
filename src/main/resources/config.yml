@@ -1,0 +1,15 @@
+# TnT Wand
+tntwand:
+  name: "&4TNT &cWand"
+  lore:
+    - "Simply right click a chest with tnt to add to the tnt bank!"
+    - "&cDemonstration purposes"
+successmessage: "&cYou just deposited %amount% tnt into your faction tnt bank!"
+# Messages to display when things happen
+toomanyarguments: "&cToo many arguments!"
+notenougharguments: "&4Not enough arguments! The correct usage is /tntwand [playername] [amount]"
+nopermissions: "&4You have no permissions to use this command!"
+playernotfound: "&4Player not found. Please enter an online player!"
+nosafespotfound: "&cCouldn't find a safe spot to deposit the tntwand. Make some room in either the enderchest or inventory please."
+notinfaction: "&cYou need to be in a faction before using a tnt wand."
+cannotAccessChest: "&cYou need to be in the faction the chest is in to be able to use the tntwand there."

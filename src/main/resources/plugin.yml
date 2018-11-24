@@ -1,0 +1,25 @@
+name: TnTWand
+version: 0.1
+main: com.nohaxjustprogram.tntwand.Main
+authors: [NoHaxJustProgram]
+description: TnT Wand
+website: https://github.com/NoHaxJustProgram?tab=repositories
+commands:
+  tntwand:
+    description:
+    usage: /tntwand
+    aliases: [tntw, wandtnt, wtnt]
+
+permissions:
+  tntwand.give.*:
+    description: Gives a tnt wand
+    default: op
+    children:
+      tntwand.give.other: true
+      tntwand.give: true
+  tntwand.give.other:
+    description: Gives a tnt wand to a specified player
+    default: op
+  tntwand.give:
+    description: Gives a tnt wand to yourself
+    default: op
